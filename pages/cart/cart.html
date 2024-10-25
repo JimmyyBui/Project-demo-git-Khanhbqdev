@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+                <img src="//offonoffclub.com/cdn/shop/files/logo_shopee_mall-02_e6e65e81-8479-467f-b85c-a856500e27e5.png?v=1724510540&width=600" alt="Logo">
+            </a>
+        </div>
+        <nav class="header_navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/detail/detail.html">Product</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>      
+        <div class="header_info">
+            <i class="fa fa-search"></i>
+            <a href="#" class="cart">
+                <span class="cart_count">3</span>
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+            <a class="header_account" href="#">
+                <i class="fa fa-user"></i>
+                <p class="Login" id="accountname">Login</p>
+            </a>
+        </div>  
+    </header>
+        <section class="cart-container">
+            <div class="cart-items">
+                  <h2>Shopping Cart</h2>
+                <div class="cart-item">
+                    <div class="cart-image">
+                        <img src="https://via.placeholder.com/100" alt="Product Image">
+                    </div>
+                    <div class="cart-info">
+                        <h3>OFFONOFF TEE</h3>
+                        <p>Giá: <span class="price">$99</span></p>
+                        <div class="cart-quantity">
+                            <label for="quantity">Số lượng:</label>
+                            <input type="number" id="quantity" value="1" min="1">
+                        </div>
+                        <p>Tổng giá: <span class="item-total-price">$99</span></p>
+                    </div>
+                    <div class="cart-actions">
+                        <button class="btn_edit"><i class="fa fa-pencil"></i> Chỉnh sửa</button>
+                        <button class="btn_remove"><i class="fa fa-trash"></i> Xóa</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Tổng thanh toán</h2>
+                <p>Total: <span id="totalPrice">$0</span></p>
+                <button class="btn_checkout">Pay</button>
+                <button class="btn_clear_cart">Check Out</button>
+                <button class="btn_order">Click Order</button>
+            </div>  
+        </section>
+   
+
+    <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="/assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="box">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/pages/detail/detail.js"></script>
+    <script src="cartt.js"></script>
+</body>
+</html>

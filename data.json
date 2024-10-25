@@ -1,0 +1,274 @@
+[
+        {
+        "id": 1,
+        "name": "OFFONOFF TEE",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item1.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 2,
+        "name": " Pull Over Jacket",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item2.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 3,
+        "name": "MEN I TRUST TSHIRT",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item3.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 4,
+        "name": "MTTS CARD HOLDER",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item4.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 5,
+        "name": "SUPRISE Parody TEE",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item5.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 6,
+        "name": "NO MOOD FOR LUV",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item6.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 7,
+        "name": "BASIC WAXED SET",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item7.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 8,
+        "name": "MTTS STAR BOXY SHIRT",
+        "price": 99,
+        "currency": "$",
+        "image": "./assets/img/item8.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      },
+      {
+        "id": 9,
+        "name": "RIHANA BABYTEE",
+        "price": 99,
+        "currency": "$",
+        "image": "/assets/img/item9.png",
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": [
+          {
+            "name": "Black",
+            "class": "color-black"
+          },
+          {
+            "name": "White",
+            "class": "color-white"
+          },
+          {
+            "name": "Red",
+            "class": "color-red"
+          }
+        ],
+        "actions": {
+          "buy_now": true,
+          "add_to_cart": true
+        },
+        "icons": {
+          "heart": "bx bx-heart",
+          "cart": "bx bx-cart"
+        }
+      }
+    
+    ]
+  

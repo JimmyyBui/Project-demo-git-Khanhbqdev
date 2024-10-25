@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppoing website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Product.css">
+    <link rel="stylesheet" href="/css/collection.css">
+</head>
+<body>
+    <!-- HEADER -->
+ 
+    <header>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="//offonoffclub.com/cdn/shop/files/logo_shopee_mall-02_e6e65e81-8479-467f-b85c-a856500e27e5.png?v=1724510540&width=600" alt="Logo">
+            </a>
+        </div>
+        <nav class="header_navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./pages/detail/detail.html">Product</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>      
+        <div class="header_info">
+            <i class="fa fa-search"></i>
+            <a href="/pages/cart/cart.html" class="cart">
+                <span class="cart_count">0</span>
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+            <a class="header_account" href="#">
+                <i class="fa fa-user"></i>
+                <p class="Login" id="accountname">Login</p>
+            </a>
+        </div>  
+    </header>
+     <!---->
+   <section>
+     <img class="banner"src="/assets//img/banner 2 .gif" alt="Banner Image">
+   </section>
+
+
+
+
+   <h2>All List </h2>
+
+
+   <section class="products">
+    <div class="Cart">
+        <div class="cart_heart">
+            <i class='bx bx-heart'></i>
+        </div>
+        <div class="cart_cart">
+            <i class='bx bx-cart'></i>
+        </div>
+        <div class="cart_img">
+            <img src="./assets/img/Remove-bg.ai_1729092940689.png" alt="Product Image">
+        </div>
+        <div class="cart_title">
+            OFFONOFF TEE
+        </div>
+        <div class="cart_price">
+            99$
+        </div>
+        <div class="cart_size">
+            <h3>Size:</h3>
+            <span>S</span>
+            <span>M</span>
+            <span>L</span>
+            <span>XL</span>
+           
+        </div>
+        <div class="cart_color">
+            <h3>Color:</h3>
+            <span class="color-black"></span>
+            <span class="color-white"></span>
+            <span class="color-red"></span>
+            
+        </div>
+        <div class="cart_action">
+            <a href="/pages/detail/detail.html?id=${item.id}">
+                <button>Buy Now</button>
+            </a>
+            <button class="btn_cart">Add to Cart</button>
+            
+        </div>
+    </div>
+ </section>
+<!---->
+ 
+
+   <h3>collection</h3>
+
+
+
+    <div class="wrapper">
+        <div class="image">
+            <img src="https://m.media-amazon.com/images/I/51Z6bvU570L._UXNaN_FMjpg_QL85_.jpg" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/483908187.jpg?k=1c58ee5844a969ef44a29fbb8b81720ca31d2fa5aee3d2b098c8838cdc633065&o=&hp=1" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/483908269.jpg?k=70d27f7354dc9e5762edb769907131e4a18b2e9a4e7bab8de6f687c366c69dc6&o=&hp=1" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lz3hea7tsbbh0f" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm6xjkmyddy714" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/483908310.jpg?k=31cabd5c8ac85ca75c302ca4e4fa0cc638582e36e23c22ce2fc31be6a6f80c8e&o=&hp=1" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/483908299.jpg?k=6ce96d7f73012393588b5d990d67181c23e562a8a2be83908a3b2e8c3d97b0b0&o=&hp=1" alt="Image">
+        </div>
+        <!--Item Image-->
+        <div class="image">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/535586418.jpg?k=1679966367746f0e5aef184e71477bb678edf5e47964739e15f7f2975a8f4c1b&o=&hp=1" alt="Image">
+        </div>
+    </div>
+    <div class="gallery">
+        <i class="fa-solid fa-x close" ></i>
+        <div class="gallery_iner">
+            <img class="full_Img" src="https://m.media-amazon.com/images/I/51Z6bvU570L._UXNaN_FMjpg_QL85_.jpg" alt="">
+        </div>
+    <div class="control prev">
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <div class="control next">
+        <i class="fa-solid fa-arrow-left"></i>
+    </div>
+    </div>
+
+</section>
+
+<div id="footer">
+    <div class="box">
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="">
+        </div>
+        <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+    </div>
+    <div class="box">
+        <h3>NỘI DUNG</h3>
+        <ul class="quick-menu">
+            <div class="item">
+                <a href="">Trang chủ</a>
+            </div>
+            <div class="item">
+                <a href="">Sản phẩm</a>
+            </div>
+            <div class="item">
+                <a href="">Blog</a>
+            </div>
+            <div class="item">
+                <a href="">Liên hệ</a>
+            </div>
+        </ul>
+    </div>
+    <div class="box">
+        <h3>LIÊN HỆ</h3>
+        <form action="">
+            <input type="text" placeholder="Địa chỉ email">
+            <button>Nhận tin</button>
+        </form>
+    </div>
+</div>
+</div>
+  <script src="./mainn.js"></script>
+  <script src="pages/detail/detail.js"></script>
+</body>
+</html>

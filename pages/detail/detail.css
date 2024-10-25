@@ -1,0 +1,278 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 150px;
+   
+}
+
+.header_navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.header_navbar ul li a{
+    padding : 20px;
+    text-decoration: none;
+    font-size : 18px;
+    color: #000000;
+    font-weight: 500px;    
+    transition: all 0.5s ease;
+}
+.header_navbar ul li a:hover {
+    color : #fc0000;
+}
+
+.header_info{
+    display:flex;
+    font-size: 14px;
+}
+.header_info > i {
+    font-size: 18px;
+    margin-right: 15px;
+    padding : 5px;
+    color : #000000;
+    transition: all 0.5s ease;
+}
+.header_info > i:hover{
+    color : #fc0000;
+    transform: scale(1.8);
+}
+.header_info > a{
+    color : #000000;
+    transition: all 0.5s ease;
+}
+/* .header_info > a {
+    color : #fc0000;
+} */
+.header_info i {
+    font-size: 18px;
+    margin-right: 20px;
+    padding : 10px;
+    transition: all 0.3s;
+}
+
+.header_info i :hover{
+    color : #fc0000;
+    transform: scale(1.2);
+}
+
+.cart_count {
+    background-color: #ff4b2b;
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    right: -10px;
+}
+
+.main {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Sản phẩm */
+.product_detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product_image img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product_info {
+    max-width: 600px;
+}
+
+.product_name {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.product_price {
+    font-size: 24px;
+    color: #ff4b2b;
+    margin-bottom: 20px;
+}
+
+.product_description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.product_options {
+    margin-bottom: 30px;
+}
+
+.product_sizes, .product_colors {
+    margin-bottom: 15px;
+}
+
+.product_sizes span, .product_colors span {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product_sizes span:hover, .product_colors span:hover {
+    background-color: #ff4b2b;
+    color: #fff;
+}
+ 
+.color_box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-white {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.color-red {
+    background-color: red;
+}
+
+/* Nút hành động */
+.product_actions button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn_buy {
+    background-color: #ff4b2b;
+    color: #fff;
+}
+
+.btn_buy:hover {
+    background-color: #e04325;
+}
+
+.btn_cart {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn_cart:hover {
+    background-color: #444;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer .box {
+    width: 30%;
+}
+
+#footer .logo img {
+    width: 150px;
+}
+
+#footer h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.quick-menu .item a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.quick-menu .item a:hover {
+    color: #ff4b2b;
+}
+
+#footer form input {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#footer form button {
+    padding: 10px 20px;
+    background-color: #ff4b2b;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer form button:hover {
+    background-color: #e04325;
+}
